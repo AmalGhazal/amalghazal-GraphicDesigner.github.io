@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amal Ghazal | Web, UI &amp; Multimedia Designer</title>
+<meta name="description" content="Amal Ghazal is a web, UI and multimedia designer in Amman. Webflow, Shopify and WordPress sites, Figma designs, AI-assisted graphics and short-form video.">
+<meta property="og:title" content="Amal Ghazal | Web, UI &amp; Multimedia Designer">
+<meta property="og:description" content="Websites, UI designs, social graphics and AI-assisted video for e-commerce and finance brands.">
+<meta property="og:image" content="https://i.postimg.cc/bNT89r5k/Raizn-Home-Page.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E✦%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0C0516;--panel:#170C29;--panel-2:#1E1236;--line:#33224E;--text:#F3EEFB;--text-dim:#A89CC4;--g1:#B347F0;--g2:#E8477D;--g3:#6E3FE0;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:74px}
+body{margin:0;overflow-x:hidden;background:radial-gradient(600px 400px at 12% 8%,rgba(179,71,240,.2),transparent 60%),radial-gradient(500px 380px at 92% 30%,rgba(232,71,125,.14),transparent 60%),var(--bg);color:var(--text);font:16px/1.6 Inter,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+h1,h2,h3,h4,.brand{font-family:"Plus Jakarta Sans",Inter,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+section.wrap{padding-top:96px;padding-bottom:96px;border-top:1px solid var(--line)}
+.section-title{font-size:1.7rem;font-weight:800;text-align:center;margin:0 0 14px}
+.section-sub{text-align:center;color:var(--text-dim);max-width:560px;margin:0 auto 44px;font-size:.95rem}
+.grad-text{background:linear-gradient(95deg,var(--g1),var(--g2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.btn{display:inline-block;text-decoration:none;font-weight:600;font-size:.94rem;padding:13px 26px;border-radius:999px;border:1px solid transparent;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.btn.solid{background:linear-gradient(95deg,var(--g1),var(--g2));color:#fff}
+.btn.solid:hover{transform:translateY(-2px);box-shadow:0 12px 28px -10px rgba(179,71,240,.55)}
+.btn.ghost{border-color:var(--line);color:var(--text)}
+.btn.ghost:hover{border-color:var(--g1);transform:translateY(-2px)}
+:focus-visible{outline:2px solid var(--g1);outline-offset:3px}
+
+/* nav */
+header{position:sticky;top:0;z-index:40;background:rgba(12,5,22,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0)}
+nav.wrap{display:flex;align-items:center;justify-content:space-between;padding-top:16px;padding-bottom:16px}
+.brand{font-weight:700;font-size:1.05rem;text-decoration:none}
+.navlinks{display:flex;gap:24px;font-size:.9rem;font-weight:500}
+.navlinks a{text-decoration:none;color:var(--text-dim);transition:color .2s}
+.navlinks a:hover{color:var(--g1)}
+.menu-toggle{display:none;background:var(--panel);border:1px solid var(--line);border-radius:10px;color:var(--text);font-size:1.15rem;padding:7px 13px;cursor:pointer}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-top:88px;padding-bottom:88px}
+.kicker{color:var(--g1);font-weight:700;margin:0 0 6px}
+h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;line-height:1.1;margin:0 0 14px}
+.lede{color:var(--text-dim);max-width:46ch;margin:0 0 26px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.avatar{width:min(300px,80vw);aspect-ratio:1;margin:0 auto;border-radius:50%;padding:5px;background:linear-gradient(135deg,var(--g3),var(--g1) 60%,var(--g2));box-shadow:0 0 60px -8px rgba(179,71,240,.55)}
+.avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover;object-position:center 40%;display:block;background:var(--panel-2)}
+
+/* about + skills */
+.about{max-width:720px;margin:0 auto;text-align:center}
+.about p{color:var(--text-dim);margin:0 0 12px}
+.skill-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;max-width:900px;margin:44px auto 0}
+.skill-group{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.skill-group h3{font-size:.98rem;margin:0 0 12px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tags span{font-size:.78rem;color:var(--text-dim);border:1px solid var(--line);border-radius:999px;padding:4px 11px}
+
+/* tabs */
+.tabbar{display:flex;justify-content:center;gap:8px;margin-bottom:32px;flex-wrap:wrap}
+.tab{font:600 .86rem Inter,sans-serif;color:var(--text-dim);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:9px 20px;cursor:pointer;transition:all .2s}
+.tab:hover{color:var(--text);border-color:var(--g1)}
+.tab.active{color:#fff;background:linear-gradient(95deg,var(--g1),var(--g2));border-color:transparent}
+
+/* cards */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:transform .3s,border-color .3s,box-shadow .3s}
+.card:hover{transform:translateY(-5px);border-color:var(--g1);box-shadow:0 22px 44px -18px rgba(179,71,240,.4)}
+.card.hide{display:none}
+.bar{display:flex;align-items:center;gap:6px;padding:9px 12px;background:var(--panel-2);border-bottom:1px solid var(--line)}
+.bar i{width:8px;height:8px;border-radius:50%}
+.bar i:nth-child(1){background:#E8477D}.bar i:nth-child(2){background:#F0C147}.bar i:nth-child(3){background:#47C97A}
+.bar span{margin-left:6px;flex:1;font-size:.72rem;color:var(--text-dim);background:var(--bg);border-radius:6px;padding:3px 10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.shot{aspect-ratio:16/10;overflow:hidden}
+.shot img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.card:hover .shot img{transform:scale(1.04)}
+.body{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
+.body h4{margin:0 0 8px;font-size:1.02rem}
+.body p{margin:0 0 10px;color:var(--text-dim);font-size:.88rem}
+.body p.role{color:var(--text);font-size:.84rem}
+.body .tags{margin:4px 0 16px}
+.body .btn{margin-top:auto;text-align:center;padding:9px 0;font-size:.82rem}
+
+/* figma */
+.fproject{max-width:1000px;margin:0 auto 52px}
+.fproject:last-child{margin-bottom:0}
+.fproject h3{text-align:center;font-size:1.05rem;margin:0 0 6px}
+.fproject>p{text-align:center;color:var(--text-dim);font-size:.9rem;margin:0 auto 20px;max-width:560px}
+.fhero{position:relative;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:26px;min-height:300px}
+.fhero img{max-width:100%;max-height:460px;border-radius:10px;cursor:zoom-in;box-shadow:0 12px 30px -14px rgba(0,0,0,.55);transition:opacity .2s}
+.fhero.switching img{opacity:0}
+.fhero .btn{padding:8px 18px;font-size:.8rem}
+.nav-arrow{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;background:rgba(30,18,54,.92);border:1px solid var(--line);color:var(--text);font-size:1.25rem;cursor:pointer;z-index:2;transition:border-color .2s}
+.nav-arrow:hover{border-color:var(--g1)}
+.nav-arrow.prev{left:14px}.nav-arrow.next{right:14px}
+.thumbs{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:16px}
+.thumb{width:76px;height:76px;padding:4px;border-radius:12px;background:var(--panel);border:1.5px solid var(--line);cursor:pointer;transition:all .2s}
+.thumb img{width:100%;height:100%;object-fit:contain;border-radius:8px;display:block}
+.thumb:hover{transform:translateY(-3px);border-color:var(--g1)}
+.thumb.active{border-color:var(--g1);box-shadow:0 6px 18px -8px rgba(179,71,240,.6)}
+
+/* graphics slider */
+.slider{display:flex;align-items:center;gap:14px}
+.viewport{overflow:hidden;flex:1}
+.track{display:flex;transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.slide{flex:0 0 100%;min-width:0}
+.slide h3{text-align:center;font-size:1.05rem;margin:0 0 18px;color:var(--text-dim)}
+.tiles{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;max-width:900px;margin:0 auto}
+.tile{aspect-ratio:1;padding:0;border-radius:10px;border:1px solid var(--line);background:var(--panel);overflow:hidden;cursor:zoom-in;transition:transform .25s,border-color .25s}
+.tile img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.tile:hover{transform:scale(1.04);border-color:var(--g1)}
+.arrow{flex-shrink:0;width:44px;height:44px;border-radius:50%;background:var(--panel);border:1px solid var(--line);color:var(--text);font-size:1.3rem;cursor:pointer;transition:border-color .2s}
+.arrow:hover{border-color:var(--g1)}
+.dots{display:flex;justify-content:center;gap:8px;margin-top:26px}
+.dots button{width:8px;height:8px;padding:0;border:0;border-radius:4px;background:var(--line);cursor:pointer;transition:all .25s}
+.dots button.active{width:22px;background:linear-gradient(95deg,var(--g1),var(--g2))}
+
+/* video */
+.vgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:980px;margin:0 auto}
+.vframe{position:relative;aspect-ratio:9/16;background:var(--panel-2);cursor:pointer}
+.vframe img,.vframe video,.vframe iframe{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0}
+.play{position:absolute;inset:0;margin:auto;width:56px;height:56px;border-radius:50%;border:0;color:#fff;font-size:1.2rem;cursor:pointer;background:linear-gradient(95deg,var(--g1),var(--g2))}
+
+/* contact */
+.contacts{display:flex;flex-direction:column;gap:16px;max-width:480px;margin:0 auto}
+.contact{display:flex;align-items:center;gap:18px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px 24px;text-decoration:none;transition:transform .25s,border-color .25s}
+.contact:hover{transform:translateY(-4px);border-color:var(--g1)}
+.contact b{width:48px;height:48px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(95deg,var(--g1),var(--g2));font-size:1.3rem;color:#fff}
+.contact small{display:block;color:var(--text-dim);font-size:.78rem}
+.contact span{font-weight:600;word-break:break-word}
+footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;padding-top:30px;padding-bottom:calc(30px + env(safe-area-inset-bottom,0));border-top:1px solid var(--line);color:var(--text-dim);font-size:.85rem}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(5,2,10,.92);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .25s}
+.lb.open{opacity:1;pointer-events:auto}
+.lb img{max-width:92vw;max-height:88vh;border-radius:12px;cursor:zoom-in;transition:transform .25s;user-select:none}
+.lb.zoomed img{cursor:grab}
+.lb-close{position:absolute;top:22px;right:26px;width:46px;height:46px;border-radius:50%;background:var(--panel-2);border:1px solid var(--line);color:var(--text);font-size:1.4rem;cursor:pointer}
+
+@media(max-width:980px){.grid3{grid-template-columns:repeat(2,1fr)}.vgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:780px){
+.wrap{padding-left:18px;padding-right:18px}
+.menu-toggle{display:block}
+nav.wrap{position:relative}
+.navlinks{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:rgba(12,5,22,.97);border-bottom:1px solid var(--line);padding:6px 0}
+.navlinks.open{display:flex}
+.navlinks a{padding:13px 26px;font-size:1rem}
+.hero{grid-template-columns:1fr;padding-top:44px;padding-bottom:56px}
+.avatar{order:-1}
+section.wrap{padding-top:64px;padding-bottom:64px}
+.tiles{grid-template-columns:repeat(3,1fr)}
+.arrow{width:36px;height:36px}
+.fhero{padding:16px;min-height:220px}.fhero img{max-height:340px}
+.thumb{width:60px;height:60px}
+.nav-arrow{width:34px;height:34px}
+}
+@media(max-width:640px){.grid3{grid-template-columns:1fr}}
+@media(max-width:480px){.tiles{grid-template-columns:repeat(2,1fr)}.vgrid{grid-template-columns:1fr}.contact{padding:16px 18px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="wrap" aria-label="Main">
+    <a class="brand" href="#top">Amal Ghazal</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    <div class="navlinks" id="navlinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Web</a>
+      <a href="#figma">Figma</a>
+      <a href="#graphics">Graphics</a>
+      <a href="#video" id="navVideo">Video</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="wrap hero" style="border-top:0">
+    <div>
+      <p class="kicker">Hi, I'm Amal</p>
+      <h1>Web, UI &amp; Multimedia Designer</h1>
+      <p class="lede">I design and build responsive websites on Webflow, Shopify and WordPress, and create AI-assisted graphics and short-form video for the brands I work with.</p>
+      <div class="cta">
+        <a class="btn solid" href="#work">See my work</a>
+        <a class="btn ghost" href="Amal_Ghazal_CV.pdf" download>Download CV</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <div class="avatar"><img src="https://i.postimg.cc/rm0YvQcC/7540fcf5-eb15-4b68-b88c-c6cbff730c4d.jpg" alt="Portrait of Amal Ghazal" width="300" height="300"></div>
+  </section>
+
+  <section class="wrap" id="about">
+    <h2 class="section-title">About me</h2>
+    <div class="about">
+      <p>I'm <span class="grad-text"><b>Amal Ghazal</b></span>, a designer based in Amman with a background in Computer Information Systems.</p>
+      <p>At Raizn I take client websites from layout to launch, and produce social creatives, brand kits and AI-assisted video for e-commerce and finance brands. I work in both English and Arabic.</p>
+    </div>
+  </section>
+
+  <section class="wrap" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skill-grid">
+      <div class="skill-group"><h3>Web</h3><div class="tags"><span>Webflow</span><span>Shopify &amp; Liquid</span><span>WordPress</span><span>WooCommerce</span><span>Elementor</span><span>HTML / CSS / JS</span><span>PHP</span><span>Git &amp; GitHub</span></div></div>
+      <div class="skill-group"><h3>Design</h3><div class="tags"><span>Figma</span><span>Photoshop</span><span>Illustrator</span><span>Canva</span><span>Wireframing</span><span>Prototyping</span><span>Brand kits</span></div></div>
+      <div class="skill-group"><h3>Video &amp; motion</h3><div class="tags"><span>After Effects</span><span>CapCut</span><span>Higgsfield</span><span>Google Flow</span><span>Reels &amp; Shorts</span></div></div>
+      <div class="skill-group"><h3>AI tools</h3><div class="tags"><span>Claude</span><span>Cursor</span><span>Gemini</span><span>Google AI Studio</span><span>DALL-E</span><span>Prompt engineering</span></div></div>
+      <div class="skill-group"><h3>Marketing</h3><div class="tags"><span>Meta Business Suite</span><span>Content planning</span><span>Basic SEO</span></div></div>
+    </div>
+  </section>
+
+  <section class="wrap" id="work">
+    <h2 class="section-title">Websites</h2>
+    <p class="section-sub">Live sites I designed and built. Each card says what I did on it.</p>
+    <div class="tabbar" id="workTabs" role="group" aria-label="Filter websites">
+      <button class="tab active" data-f="all">All</button>
+      <button class="tab" data-f="webflow">Webflow</button>
+      <button class="tab" data-f="shopify">Shopify</button>
+      <button class="tab" data-f="wordpress">WordPress</button>
+    </div>
+    <div class="grid3">
+      <article class="card" data-cat="webflow">
+        <div class="bar"><i></i><i></i><i></i><span>banqy.ae</span></div>
+        <div class="shot"><img src="https://i.postimg.cc/d0NzSTRw/Screenshot-2026-09-22-232742.png" alt="Banqy mortgage comparison website" loading="lazy"></div>
+        <div class="body"><h4>Banqy: UAE mortgage comparison</h4>
+          <p>Bilingual comparison platform for 16+ UAE banks, with interactive calculators and a multi-step application flow.</p>
+          <p class="role">My role: UI design and Webflow build, with custom code for the calculators.</p>
+          <div class="tags"><span>Webflow</span><span>HTML/CSS/JS</span><span>AI</span></div>
+          <a class="btn solid" href="https://www.banqy.ae/" target="_blank" rel="noopener">Visit site</a></div>
+      </article>
+      <article class="card" data-cat="shopify">
+        <div class="bar"><i></i><i></i><i></i><span>cupzi.net</span></div>
+        <div class="shot"><img src="https://i.postimg.cc/rpZvYtGr/Screenshot-2026-09-22-233023.png" alt="Cupzi paper cups store" loading="lazy"></div>
+        <div class="body"><h4>Cupzi: paper cups &amp; tableware</h4>
+          <p>Bilingual Shopify store with nine cup patterns.</p>
+          <p class="role">My role: store build and Liquid edits, using Cursor and Claude.</p>
+          <div class="tags"><span>Shopify</span><span>Liquid</span><span>Cursor</span><span>Claude</span></div>
+          <a class="btn solid" href="https://cupzi.net/" target="_blank" rel="noopener">Visit site</a></div>
+      </article>
+      <article class="card" data-cat="shopify">
+        <div class="bar"><i></i><i></i><i></i><span>nahleh.net</span></div>
+        <div class="shot"><img src="https://i.postimg.cc/g0tfB6yj/Screenshot-2026-09-22-232834.png" alt="Nahleh wellness store" loading="lazy"></div>
+        <div class="body"><h4>Nahleh: movement &amp; wellness care</h4>
+          <p>Arabic-first Shopify store for orthopedic and wellness products, with local payments and WhatsApp ordering.</p>
+          <p class="role">My role: store design and build.</p>
+          <div class="tags"><span>Shopify</span><span>Arabic RTL</span></div>
+          <a class="btn solid" href="https://nahleh.net/" target="_blank" rel="noopener">Visit site</a></div>
+      </article>
+      <article class="card" data-cat="webflow">
+        <div class="bar"><i></i><i></i><i></i><span>raizn.com/nawa-ar</span></div>
+        <div class="shot"><img src="https://i.postimg.cc/bvVKF20G/Screenshot-2026-09-22-232853.png" alt="Nawa AI employee landing page" loading="lazy"></div>
+        <div class="body"><h4>Nawa: AI employee, by Raizn</h4>
+          <p>Arabic landing page for Raizn's AI-employee product, with the onboarding journey, pricing and a savings calculator.</p>
+          <p class="role">My role: page design and Webflow build.</p>
+          <div class="tags"><span>Webflow</span><span>Custom code</span></div>
+          <a class="btn solid" href="https://raizn.com/nawa-ar" target="_blank" rel="noopener">Visit site</a></div>
+      </article>
+      <article class="card" data-cat="webflow">
+        <div class="bar"><i></i><i></i><i></i><span>raizn.com</span></div>
+        <div class="shot"><img src="https://i.postimg.cc/hGZH378X/Screenshot-2026-09-22-232938.png" alt="Raizn growth agency website" loading="lazy"></div>
+        <div class="body"><h4>Raizn: growth agency website</h4>
+          <p>Main marketing site for Raizn's AI-driven growth offering.</p>
+          <p class="role">My role: UI design and Webflow build.</p>
+          <div class="tags"><span>Webflow</span><span>Custom code</span></div>
+          <a class="btn solid" href="https://raizn.com/" target="_blank" rel="noopener">Visit site</a></div>
+      </article>
+      <article class="card" data-cat="wordpress">
+        <div class="bar"><i></i><i></i><i></i><span>adan.care</span></div>
+        <div class="shot"><img src="https://i.postimg.cc/TPNZHWjW/Screenshot-2026-09-22-233001.png" alt="adan.care personal care store" loading="lazy"></div>
+        <div class="body"><h4>adan.care: personal care e-commerce</h4>
+          <p>Bilingual (EN/AR) WooCommerce store for a personal care dropshipping brand in Jordan, tuned for Core Web Vitals.</p>
+          <p class="role">My role: design, WordPress and Elementor build, hosting setup.</p>
+          <div class="tags"><span>WordPress</span><span>WooCommerce</span><span>Elementor</span></div>
+          <a class="btn solid" href="https://adan.care/" target="_blank" rel="noopener">Visit site</a></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="wrap" id="figma">
+    <h2 class="section-title">Figma designs</h2>
+    <p class="section-sub">Click a screen to zoom in.</p>
+    <div id="figmaMount"></div>
+  </section>
+
+  <section class="wrap" id="graphics">
+    <h2 class="section-title">AI graphic posts</h2>
+    <p class="section-sub">Social creatives made for client brands.</p>
+    <div class="tabbar" id="albumTabs"></div>
+    <div class="slider">
+      <button class="arrow" id="albumPrev" aria-label="Previous album">&#8249;</button>
+      <div class="viewport"><div class="track" id="albumTrack"></div></div>
+      <button class="arrow" id="albumNext" aria-label="Next album">&#8250;</button>
+    </div>
+    <div class="dots" id="albumDots"></div>
+  </section>
+
+  <section class="wrap" id="video">
+    <h2 class="section-title">Video &amp; motion</h2>
+    <p class="section-sub">Short-form clips made with Higgsfield, Google Flow, CapCut and After Effects.</p>
+    <div class="vgrid" id="videoMount"></div>
+  </section>
+
+  <section class="wrap" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contacts">
+      <a class="contact" href="mailto:amal.tayseer.ghazal@gmail.com"><b aria-hidden="true">✉</b><div><small>Email</small><span>amal.tayseer.ghazal@gmail.com</span></div></a>
+      <a class="contact" href="tel:+962780782608"><b aria-hidden="true">☎</b><div><small>Phone</small><span>+962 780 782 608</span></div></a>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap"><span class="brand">Amal Ghazal</span><span>© 2026 Amal Ghazal. All rights reserved.</span></footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Image preview">
+  <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+  <img id="lbImg" src="" alt="">
+</div>
+
+<script>
+/* ============ EDIT YOUR CONTENT HERE ============ */
+var P = 'https://i.postimg.cc/';
+
+// Graphics: album name -> image paths (after https://i.postimg.cc/)
+var ALBUMS = {
+  'Travel Kit': ['1z4JY75b/TRAVELKIT-CUPZI-(3).png','7LbmQtYQ/TRAVELKIT-CUPZI-(5).png','mg9rNBQs/TRAVELKIT-CUPZI-(9).png','vZnmLbWQ/TRAVELKIT-CUPZI-(8).png','cJ6X5k4V/TRAVELKIT-CUPZI-(2).png'],
+  'Cupzi': ['wB30b4T0/TRAVELKIT-CUPZI-(6).png','FK1DnCsq/TRAVELKIT-CUPZI-(4).png','yYdgRMQH/TRAVELKIT-CUPZI-1.webp','rpzQYZwX/TRAVELKIT-CUPZI-(1).png','xdqtFpTg/TRAVELKIT-CUPZI-(7).png'],
+  'Aamer': ['rmH6PtkW/Aamer-(6).png','QNPs6vNs/Aamer-(4).png','y65Bf26K/Aamer-(2).png','1RTPWbRy/Aamer.png','BZyshRZq/Aamer-(1).png'],
+  'Banqy': ['YSJfDpPC/Idea-1.png','QMRkYXzM/banqy-creatives-(6).png','zf30P2Gr/banqy-creatives-(3).png','N0LpPCjg/banqy-creatives-(1).png','PqBzVt7r/banqy-creatives-(5).png'],
+  'Nahleh': ['SxggdbqV/nahleh-creatives-(4).png','VkKKgP1T/nahleh-creatives-(1).png','NjddDvYd/nahleh-creatives-(3).png','W1558cjC/nahleh-creatives.png','pdpMYZNj/nahleh-creatives-(5).png'],
+  'Khat gallery': ['sgTTmCym/khat.png','T3tt0vGr/khat-(1).png','7ZKK9rDS/khat-(2).png','mgmmjWRC/khat-(3).png','YCddRBkN/khat-(4).png']
+};
+
+// Figma projects: screens are [imagePath, alt, optionalFigmaLink]
+var FIGMA = [
+  { title: 'Website landing pages', text: 'Landing page and marketing-site concepts designed in Figma.', screens: [
+    ['KvNFDjWY/d7754e229277125-686250228d13a-(1).webp','Agency landing page, dark theme','https://www.figma.com/design/0Ew77DweJcZBPb0RbkjPSv/Agency-Website-Landing-Page-Design---Dark-Theme--Community-?node-id=0-1'],
+    ['Wbnjwzy3/ba3b4e219641395-67b5916bbe889.webp','Echo Tech website design','https://www.figma.com/design/PFc80N9fMfMZgE7mAnsXnq/Echo-Tech-Task?node-id=0-1'],
+    ['5N31SyrN/6cb5da228926675-685c2fe2e4b2d.webp','Restaurant food landing page','https://www.figma.com/design/rheQYG97kF9lShik1OJPTb/Restaurant-Food-Landing-page?node-id=0-1'],
+    ['bNT89r5k/Raizn-Home-Page.png','Raizn home page design','https://www.figma.com/design/YwykY9brl2lIfdSWYWtftZ/Raizn?node-id=2-23'],
+    ['c4rxfQSM/Frame.png','GEE platform design','https://www.figma.com/design/z3V6gM8mm6ACDaZroJMxnm/Gee?node-id=1-4578']
+  ]},
+  { title: 'Game interface', text: 'Game interface screens designed end to end in Figma.', screens: [
+    ['02fx0j49/47a7db216542933-678168b910493.webp','Game interface screen 1'],
+    ['FsZmVz6m/0cf8e5216542933-678168b911c30.webp','Game interface screen 2'],
+    ['hPrg1vYn/83b9fe216542933-678168b91145c.webp','Game interface screen 3'],
+    ['rFJcNsHM/f14816216542933-678168b910f22.webp','Game interface screen 4']
+  ]},
+  { title: 'Mobile app flow', text: 'Onboarding, sign-in and employee management screens.', screens: [
+    ['Rhd8K60N/sign-up.png','Sign-up screen'],
+    ['Fzpq3dKk/sign-in-4.png','Sign-in screen, variant 1'],
+    ['brgMkDvD/sign-in-3.png','Sign-in screen, variant 2'],
+    ['PJycYpqJ/sign-in.png','Sign-in screen, variant 3'],
+    ['9Q03PpTg/add-employee-1.png','Add employee screen'],
+    ['kgGrNc8p/map-4.png','Map screen']
+  ]}
+];
+
+// Videos. Add YouTube IDs (Shorts work too) or a self-hosted file.
+// { title:'Cupzi: product reel', text:'AI-assisted short, edited in CapCut.', tools:['Higgsfield','CapCut'], yt:'YOUTUBE_ID' }
+// { title:'Banqy: promo clip', text:'...', tools:['Google Flow'], src:'videos/banqy.mp4', poster:'videos/banqy.jpg' }
+var VIDEOS = [];
+/* ============ END OF CONTENT ============ */
+
+function el(tag, props, kids) {
+  var n = document.createElement(tag);
+  Object.keys(props || {}).forEach(function (k) {
+    if (k === 'class') n.className = props[k]; else if (k === 'text') n.textContent = props[k]; else n[k] = props[k];
+  });
+  (kids || []).forEach(function (c) { n.appendChild(c); });
+  return n;
+}
+
+/* mobile menu + same-tab anchors */
+var toggle = document.getElementById('menuToggle'), links = document.getElementById('navlinks');
+toggle.addEventListener('click', function () {
+  var open = links.classList.toggle('open');
+  toggle.setAttribute('aria-expanded', open);
+  toggle.innerHTML = open ? '&times;' : '&#9776;';
+});
+links.addEventListener('click', function (e) {
+  if (e.target.tagName === 'A') { links.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); toggle.innerHTML = '&#9776;'; }
+});
+
+/* website filter */
+document.getElementById('workTabs').addEventListener('click', function (e) {
+  var b = e.target.closest('.tab'); if (!b) return;
+  document.querySelectorAll('#workTabs .tab').forEach(function (t) { t.classList.toggle('active', t === b); });
+  document.querySelectorAll('#work .card').forEach(function (c) {
+    c.classList.toggle('hide', b.dataset.f !== 'all' && c.dataset.cat !== b.dataset.f);
+  });
+});
+
+/* lightbox */
+var lb = document.getElementById('lb'), lbImg = document.getElementById('lbImg'), zoomed = false, cx = 0, cy = 0, drag = null;
+function lbTransform() { lbImg.style.transform = 'translate(' + cx + 'px,' + cy + 'px) scale(' + (zoomed ? 2 : 1) + ')'; }
+function openLb(src, alt) { lbImg.src = src; lbImg.alt = alt || ''; zoomed = false; cx = cy = 0; lb.classList.remove('zoomed'); lb.classList.add('open'); document.body.style.overflow = 'hidden'; lbTransform(); document.getElementById('lbClose').focus(); }
+function closeLb() { lb.classList.remove('open'); document.body.style.overflow = ''; }
+lbImg.addEventListener('click', function () { if (drag && drag.moved) return; zoomed = !zoomed; cx = cy = 0; lb.classList.toggle('zoomed', zoomed); lbTransform(); });
+lbImg.addEventListener('mousedown', function (e) { if (!zoomed) return; drag = { x: e.clientX - cx, y: e.clientY - cy, moved: false }; e.preventDefault(); });
+window.addEventListener('mousemove', function (e) { if (!drag) return; drag.moved = true; cx = e.clientX - drag.x; cy = e.clientY - drag.y; lbTransform(); });
+window.addEventListener('mouseup', function () { if (drag) setTimeout(function () { drag = null; }, 0); });
+lb.addEventListener('click', function (e) { if (e.target === lb) closeLb(); });
+document.getElementById('lbClose').addEventListener('click', closeLb);
+document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeLb(); });
+
+/* Figma showcases */
+var mount = document.getElementById('figmaMount');
+FIGMA.forEach(function (proj) {
+  var idx = 0;
+  var img = el('img', { loading: 'lazy' });
+  var open = el('a', { class: 'btn ghost', text: 'Open in Figma', target: '_blank', rel: 'noopener' });
+  var hero = el('div', { class: 'fhero' }, [img, open]);
+  var prev = el('button', { class: 'nav-arrow prev', innerHTML: '&#8249;', ariaLabel: 'Previous screen' });
+  var next = el('button', { class: 'nav-arrow next', innerHTML: '&#8250;', ariaLabel: 'Next screen' });
+  hero.appendChild(prev); hero.appendChild(next);
+  var thumbs = el('div', { class: 'thumbs' });
+  var btns = proj.screens.map(function (s, i) {
+    var b = el('button', { class: 'thumb', ariaLabel: s[1] }, [el('img', { src: P + s[0], alt: s[1], loading: 'lazy' })]);
+    b.addEventListener('click', function () { set(i); });
+    thumbs.appendChild(b); return b;
+  });
+  function set(i) {
+    idx = (i + proj.screens.length) % proj.screens.length;
+    var s = proj.screens[idx];
+    hero.classList.add('switching');
+    setTimeout(function () {
+      img.src = P + s[0]; img.alt = s[1];
+      if (s[2]) { open.href = s[2]; open.style.display = ''; } else { open.style.display = 'none'; }
+      hero.classList.remove('switching');
+    }, 150);
+    btns.forEach(function (b, bi) { b.classList.toggle('active', bi === idx); });
+  }
+  img.addEventListener('click', function () { openLb(img.src, img.alt); });
+  prev.addEventListener('click', function () { set(idx - 1); });
+  next.addEventListener('click', function () { set(idx + 1); });
+  mount.appendChild(el('div', { class: 'fproject' }, [el('h3', { text: proj.title }), el('p', { text: proj.text }), hero, thumbs]));
+  set(0);
+});
+
+/* Graphics album slider */
+(function () {
+  var names = Object.keys(ALBUMS), track = document.getElementById('albumTrack'),
+      tabs = document.getElementById('albumTabs'), dots = document.getElementById('albumDots'), index = 0;
+  names.forEach(function (name, i) {
+    var tiles = el('div', { class: 'tiles' });
+    ALBUMS[name].forEach(function (path, n) {
+      var alt = name + ' social post ' + (n + 1);
+      var t = el('button', { class: 'tile', ariaLabel: 'Enlarge: ' + alt }, [el('img', { src: P + path, alt: alt, loading: 'lazy' })]);
+      t.addEventListener('click', function () { openLb(P + path, alt); });
+      tiles.appendChild(t);
+    });
+    track.appendChild(el('div', { class: 'slide' }, [el('h3', { text: name }), tiles]));
+    var tab = el('button', { class: 'tab', text: name }); tab.addEventListener('click', function () { go(i); }); tabs.appendChild(tab);
+    var d = el('button', { ariaLabel: 'Show ' + name }); d.addEventListener('click', function () { go(i); }); dots.appendChild(d);
+  });
+  function go(i) {
+    index = (i + names.length) % names.length;
+    track.style.transform = 'translateX(-' + index * 100 + '%)';
+    tabs.childNodes.forEach(function (t, ti) { t.classList.toggle('active', ti === index); });
+    dots.childNodes.forEach(function (d, di) { d.classList.toggle('active', di === index); });
+  }
+  document.getElementById('albumPrev').addEventListener('click', function () { go(index - 1); });
+  document.getElementById('albumNext').addEventListener('click', function () { go(index + 1); });
+  var sx = null;
+  track.addEventListener('touchstart', function (e) { sx = e.touches[0].clientX; }, { passive: true });
+  track.addEventListener('touchend', function (e) {
+    if (sx === null) return; var dx = e.changedTouches[0].clientX - sx;
+    if (dx > 40) go(index - 1); else if (dx < -40) go(index + 1); sx = null;
+  });
+  go(0);
+})();
+
+/* Videos: hidden until you add some */
+(function () {
+  if (!VIDEOS.length) { document.getElementById('video').style.display = 'none'; document.getElementById('navVideo').style.display = 'none'; return; }
+  var m = document.getElementById('videoMount');
+  VIDEOS.forEach(function (v) {
+    var frame = el('div', { class: 'vframe' });
+    if (v.yt) {
+      frame.appendChild(el('img', { src: 'https://i.ytimg.com/vi/' + v.yt + '/hqdefault.jpg', alt: v.title, loading: 'lazy' }));
+      frame.appendChild(el('button', { class: 'play', innerHTML: '&#9654;', ariaLabel: 'Play ' + v.title }));
+      frame.addEventListener('click', function () {
+        frame.innerHTML = '';
+        frame.appendChild(el('iframe', { src: 'https://www.youtube-nocookie.com/embed/' + v.yt + '?autoplay=1&rel=0&playsinline=1', allow: 'autoplay; encrypted-media; picture-in-picture', allowFullscreen: true, title: v.title }));
+      }, { once: true });
+    } else {
+      var vid = el('video', { src: v.src, controls: true, playsInline: true, preload: 'none' }); if (v.poster) vid.poster = v.poster;
+      frame.appendChild(vid);
+    }
+    var tags = el('div', { class: 'tags' }, (v.tools || []).map(function (t) { return el('span', { text: t }); }));
+    m.appendChild(el('article', { class: 'card' }, [frame, el('div', { class: 'body' }, [el('h4', { text: v.title }), el('p', { text: v.text || '' }), tags])]));
+  });
+})();
+</script>
+</body>
+</html>
